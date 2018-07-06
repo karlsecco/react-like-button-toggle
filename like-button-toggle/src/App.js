@@ -1,21 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import LikeButton from './LikeButton';
 import './App.css';
 
-class App extends Component {
+export default class App extends Component {
+  state = {
+    userImg: 'https://avatars0.githubusercontent.com/u/33213505?s=460&v=4',
+    userAlt: "Karl Secco's GitHub profile picture",
+    isLiked: false
+  };
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="app-container">
+        <img className="user-img" src={this.state.userImg} alt={this.state.userAlt} />
+        <LikeButton isLiked={this.state.isLiked} />
       </div>
     );
   }
 }
-
-export default App;
