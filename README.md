@@ -9,4 +9,4 @@
 
 - Live application: https://karlsecco.github.io/react-like-button-toggle/
 
-![react-like-button-toggle demo gif](https://github.com/karlsecco/react-like-button-toggle/blob/master/demo.gif?raw=true)
+![react-like-button-toggle demo gif](https://github.com/karlsecco/react-like-button-toggle/blob/master/demo.gif?raw=true) <!-- .element max-width="150px" min-width="50vh" border-radius="10%"-->
